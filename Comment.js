@@ -1,4 +1,4 @@
-﻿var normal="abcdefghijklmnopqrstuvwxzyABCDEFGHIJKLMNOPQRSTUVWXZY1234567890"
+var normal="abcdefghijklmnopqrstuvwxzyABCDEFGHIJKLMNOPQRSTUVWXZY1234567890"
 var balik="ɐqɔpǝⅎƃɥᴉɾʞʅɯuodbɹsʇnʌʍxzʎ∀ꓭϽᗡƎᖵ⅁HIᒋꓘ⅂ꟽNOԀꝹꓤSꓕՈɅϺXZ⅄⇂↊↋ߤ59𝘓860"
 var bulat="ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓩⓨⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓏⓎ➊➋➌➍➎➏➐➑➒➓"
 var bulat2="ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓩⓨⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓏⓎ➀➁➂➃➄➅➆➇➈➉"
@@ -7,9 +7,9 @@ var smallcap="ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxᴢʏA
 var cool="αß¢ḓℯḟℊ♄ḯʝкłღη☺℘ⓠґ﹩тυ√ẘϰℨ⑂Ѧℬ☾Ð€ℱḠℋℐJḲḺℳℵϴℙℚℜ$✝ṲṼШẌẐ¥123456子890"
 var symbol="ᗩᖲᑕᕍᗴℱᘐᖺᓮᒎḰᒪᗰﬡᗝᖰᕋᖇᔕ♈ᘎᐯᙡჯᔓ૪ᗩᗷᑕᗪᕮℱᘐᕼᓰᒎḰᒪᗰᘉ〇ᖘႳᖇᔕ☂ᘮⅤᙡ᙭ᔓᎩ1234567890"
 var rusia="aЬcdєfgнїjкlмиоpqґšтцvшxzџABCDЄFБHЇJКLMИОPQЯ₴TЦVШЖZУ12З4567890"
-var rusia4="𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕫𝕪𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏ℤ𝕐𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡𝟘-?><@#$%^&*()_+:\/"
-var latin="𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔃𝔂𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓩𝓨1234567890"
-var grafiti="𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖟𝖞𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖅𝖄1234567890"
+var mono="𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕫𝕪𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏ℤ𝕐𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡𝟘-?><@#$%^&*()_+:\/"
+var latin1="𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔃𝔂𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓩𝓨1234567890"
+var grafity="𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖟𝖞𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖅𝖄1234567890"
 var latin2="𝒶𝒷𝒸𝒹𝑒𝒻𝑔𝒽𝒾𝒿𝓀𝓁𝓂𝓃𝑜𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓏𝓎𝒜𝐵𝒞𝒟𝐸𝐹𝒢𝐻𝐼𝒥𝒦𝐿𝑀𝒩𝒪𝒫𝒬𝑅𝒮𝒯𝒰𝒱𝒲𝒳𝒵𝒴𝟣𝟤𝟥𝟦𝟧𝟨𝟩𝟪𝟫𝟢"
 var bold="ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｚｙＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＺＹ１２３４５６７８９０"
 var kotak="🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅉🅈🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅉🅈1234567890"
@@ -30,7 +30,14 @@ function cbulat3(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.
 function csmallcap(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=smallcap.charAt(j);} else {s+=c;}}_out.value=s;}
 function ccool(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=cool.charAt(j);} else {s+=c;}}_out.value=s;}
 function csymbol(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=symbol.charAt(j);} else {s+=c;}}_out.value=s;}
-function crusia(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=rusia1.charAt(j);} else {s+=c;}}_out.value=s;}
+function crusia(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=rusia.charAt(j);} else {s+=c;}}_out.value=s;}
+function ckotak(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=kotak.charAt(j);} else {s+=c;}}_out.value=s;}
+function clatin1(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=latin1.charAt(j);} else {s+=c;}}_out.value=s;}
+function clatin2(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=latin2.charAt(j);} else {s+=c;}}_out.value=s;}
+function cgrafity(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=grafity.charAt(j);} else {s+=c;}}_out.value=s;}
+function cbold(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=bold.charAt(j);} else {s+=c;}}_out.value=s;}
+function cmono(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=mono.charAt(j);} else {s+=c;}}_out.value=s;}
+function creverse(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=reverse.charAt(j);} else {s+=c;}}_out.value=s;}
 
 function focusFirst() {if (els = oTD.getElementsByTagName("input")) {els[0].focus();}}
 function highlight(field) {field.focus();field.select();};
