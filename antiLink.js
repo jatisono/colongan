@@ -19,7 +19,25 @@ function focusFirst() {if (els = oTD.getElementsByTagName("input")) {els[0].focu
 function highlight(field) {field.focus();field.select();};
 function cbalik() { var result = flipString(document.colongan.colong.value.toLowerCase()); document.colongan.colongin.value = result;}
 function flipString(aString) {var last = aString.length - 1;var result = new Array(aString.length); for (var i = last; i >= 0; --i) {   var c = aString.charAt(i); var r = flipTable[c]; result[last - i] = r != undefined ? r : c } return result.join('')}
-var flipTable = { 'a' : '\u0250','b' : 'q','c' : '\u0254','d' : 'p','e' : '\u01DD','f' : '\u025F','g' : '\u0183','h' : '\u0265','i' : '\u0131','j' : '\u027E','k' : '\u029E','l' : 'l','m' : '\u026F','n' : 'u','o' : 'o','p' : 'd','q' : 'b','r' : '\u0279','s' : 's','t' : '\u0287','u' : 'n','v' : '\u028C','w' : '\u028D','y' : '\u028E','z' : 'z','1' : '\u21C2','2' : '\u1105','3' : '\u1110','4' : '\u3123','5' : '\u078E', '6' : '9','7' : '\u3125','8' : '8','9' : '6','0' : '0','.' : '\u02D9',',' : "\'","\'" : ',',"\"" : ',,',"?" : ',',"`" : ',',';' : '\u061B','!' : '\u00A1','\u00A1' : '!','?' : '\u00BF','\u00BF' : '?','[' : ']',']' : '[','(' : ')',')' : '(','{' : '}','}' : '{','<' : '>','>' : '<','_' : '\u203E','\r' : '\n' };
+var flipTable = {
+  'A' : '∀', 'B' : 'ꓭ', 'C' : 'Ͻ', 'D' : 'ᗡ',
+'E' : 'Ǝ', 'F' : 'ᖵ', 'G' : '⅁', 'H' : 'H',
+'I' : 'I', 'J' : 'ᒋ', 'K' : 'ꓘ', 'L' : '⅂',
+'M' : 'ꟽ', 'N' : 'N', 'O' : 'O', 'P' : 'Ԁ',
+'Q' : 'Ꝺ', 'R' : 'ꓤ', 'S' : 'S', 'T' : 'ꓕ',
+'U' : 'Ո', 'V' : 'Ʌ', 'W' : 'Ϻ', 'X' : 'X',
+'Y' : '⅄', 'Z' : 'Z', 'a' : 'ɐ', 'b' : 'q',
+'c' : 'ɔ', 'd' : 'p', 'e' : 'ǝ', 'f' : 'ⅎ',
+'g' : 'ƃ', 'h' : 'ɥ', 'i' : 'ᴉ', 'j' : 'ɾ',
+'k' : 'ʞ', 'l' : 'ʅ', 'm' : 'ɯ', 'n' : 'u',
+'o' : 'o', 'p' : 'd', 'q' : 'b', 'r' : 'ɹ',
+'s' : 's', 't' : 'ʇ', 'u' : 'n', 'v' : 'ʌ',
+'w' : 'ʍ', 'x' : 'x', 'y' : 'ʎ', 'z' : 'z',
+'?' : '¿', '!' : '¡', '\r' : '\n',
+'1' : '⇂', '2' : '↊', '3' : '↋', 
+'4' : 'ߤ', 
+'5' : '5', '6' : '9', '7' : '𝘓', '8' : '8', '9' : '6', '0' : '0',
+};
 for (i in flipTable) {flipTable[flipTable[i]] = i};
 
 var str; function atas() {str = document.colongan.colongin.value; var chuncks = str.match(/.{1,1}/g);  var new_value1 = chuncks.join("̅");document.colongan.colongin.value=new_value1 ;}
