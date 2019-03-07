@@ -7,7 +7,7 @@ var smallcap="ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxᴢʏA
 var symbol="ᗩᖲᑕᕍᗴℱᘐᖺᓮᒎḰᒪᗰﬡᗝᖰᕋᖇᔕ♈ᘎᐯᙡჯᔓ૪ᗩᗷᑕᗪᕮℱᘐᕼᓰᒎḰᒪᗰᘉ〇ᖘႳᖇᔕ☂ᘮⅤᙡ᙭ᔓᎩ1234567890"
 var rusia="aЬcdєfgнїjкlмиоpqґšтцvшxzџABCDЄFБHЇJКLMИОPQЯ₴TЦVШЖZУ12З4567890"
 var bold="ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｚｙＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＺＹ１２３４５６７８９０"
-function cbulat(_in, _out){var s="" var n=_in.value.toLowerCase() for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=bulat.charAt(j);} else {s+=c;} }_out.value=s;}
+function cbulat(_in, _out){var s=""; var n=_in.value.toLowerCase(); for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=bulat.charAt(j)} else {s+=c} }_out.value=s;};
 function cbulat2(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=bulat2.charAt(j);} else {s+=c;}}_out.value=s; }
 function cbulat3(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=bulat3.charAt(j);} else {s+=c;}}_out.value=s;}
 function csmallcap(_in, _out){var s="";var n=_in.value.toLowerCase();for(i=0; i<n.length; i++){var c=n.charAt(i);for(j=0; (j<normal.length)&&(c!=normal.charAt(j)); j++);if (j<normal.length) {s+=smallcap.charAt(j);} else {s+=c;}}_out.value=s;}
@@ -21,7 +21,7 @@ function flipString(aString) {var last = aString.length - 1;var result = new Arr
 var flipTable = {'A' : '∀', 'B' : 'ꓭ', 'C' : 'Ͻ', 'D' : 'ᗡ','E' : 'Ǝ', 'F' : 'ᖵ', 'G' : '⅁', 'H' : 'H','I' : 'I', 'J' : 'ᒋ', 'K' : 'ꓘ', 'L' : '⅂','M' : 'ꟽ', 'N' : 'N', 'O' : 'O', 'P' : 'Ԁ','Q' : 'Ꝺ', 'R' : 'ꓤ', 'S' : 'S', 'T' : 'ꓕ','U' : 'Ո', 'V' : 'Ʌ', 'W' : 'Ϻ', 'X' : 'X','Y' : '⅄', 'Z' : 'Z', 'a' : 'ɐ', 'b' : 'q','c' : 'ɔ', 'd' : 'p', 'e' : 'ǝ', 'f' : 'ⅎ','g' : 'ƃ', 'h' : 'ɥ', 'i' : 'ᴉ', 'j' : 'ɾ','k' : 'ʞ', 'l' : 'ʅ', 'm' : 'ɯ', 'n' : 'u','o' : 'o', 'p' : 'd', 'q' : 'b', 'r' : 'ɹ','s' : 's', 't' : 'ʇ', 'u' : 'n', 'v' : 'ʌ','w' : 'ʍ', 'x' : 'x', 'y' : 'ʎ', 'z' : 'z','?' : '¿', '!' : '¡', '\r' : '\n','1' : '⇂', '2' : '↊', '3' : '↋', '4' : 'ߤ', '5' : '5', '6' : '9', '7' : '𝘓', '8' : '8', '9' : '6', '0' : '0',};
 for (i in flipTable) {flipTable[flipTable[i]] = i};
 var str; function atas() {str = document.colongan.colongin.value; var chuncks = str.match(/.{1,1}/g);  var new_value1 = chuncks.join("̅");document.colongan.colongin.value=new_value1 ;}
-function bawah() {str = document.colongan.colongin.value;  var chuncks = str.match(/.{1,1}/g);  var new_value2 = chuncks.join("̲"); document.colongan.colongin.value=new_value2 ;}
+function bawah() {str = document.colongan.colong.value;  var chuncks = str.match(/.{1,1}/g);  var new_value2 = chuncks.join("̲"); document.colongan.colongin.value=new_value2 ;}
 function coret() {str = document.colongan.colongin.value; var chuncks = str.match(/.{1,1}/g);var new_value3 = chuncks.join("̶"); document.colongan.colongin.value=new_value3 ;}
 function miring() {str = document.colongan.colongin.value; var chuncks = str.match(/.{1,1}/g); var new_value4 = chuncks.join("̸");document.colongan.colongin.value=new_value4 ;}
 function miring2() {str = document.colongan.colongin.value;  var chuncks = str.match(/.{1,1}/g);  var new_value5 = chuncks.join("̷"); document.colongan.colongin.value=new_value5 ;};
