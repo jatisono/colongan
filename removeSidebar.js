@@ -32,11 +32,6 @@ var isIE=false||testCSS(_0x4dff[222]);
 function testCSS(_0x3f43x1a){
  return _0x3f43x1a in document[_0x4dff[224]][_0x4dff[223]];
 };
-window[_0x4dff[225]]=function (){
- if(isChrome||isOpera){
-  document[_0x4dff[228]](_0x4dff[227])[_0x4dff[226]]=true;
- };
-};
 function tarty(){
  cur_row=0;
  workflow=Array();
